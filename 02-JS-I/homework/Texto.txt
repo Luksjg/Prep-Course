@@ -1,0 +1,15 @@
+Variable:
+Una variable es una forma de almacenar valor para ser utilizado mas tarde.
+
+String:
+Un string es una cadena de caracteres, un bloque de texto que se define entre comillas.
+
+Funciones:
+Una funcion es un objeto invocable (callable object) muy importante en los lenguajes de programacion, con lineas de codigo en su interior que son ejecutadas con ciertas condiciones.
+
+Declaraciones If:
+Una declaracion If verifica si algo es "True" y ejecuta un codigo suministrado en caso de que asi sea o avanzando si no lo es.
+
+Valores Booleanos
+Los valores Booleanos son datos con dos unicos valores posibles: True o False (Verdadero o falso).
+
