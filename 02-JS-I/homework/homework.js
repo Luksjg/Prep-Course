@@ -28,9 +28,7 @@ const nuevoModulo = 21 % 5 === 1 ;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-
-   return str;
-
+  return str;
 }
 
 function suma(x, y) {
@@ -47,7 +45,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
 
-  var resultadoResta = y-x;
+  var resultadoResta = x-y;
   return resultadoResta;
 }
 
@@ -191,9 +189,12 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if(numero>0){
-    return "Es positivo"
+    return "Es positivo";
   }
-  return "Es negativo"
+  else if(numero<0){
+    return "Es negativo";
+  }
+  return false;
 }
 
 function agregarSimboloExclamacion(str) {
