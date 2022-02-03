@@ -1,5 +1,5 @@
 For()
-Un bucle FOR se utiliza para ejecutar codigo una cierta cantidad de veces mientras una declaracion que establezcamos de TRUE.
+Un bucle FOR evalua expresiones repetidamente hasta llegar a un valor buscado o detenerse despues de cierto tiempo.
 
 && 
 El operador && ("and") evalua y devuelve TRUE si ambas expresiones son verdaderas, caso contrario devolvera FALSE.

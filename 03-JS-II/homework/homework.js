@@ -209,6 +209,7 @@ function tablaDelSeis(){
   var tabla=[];
   for (var i = 0; i < 11; i++) {
         tabla.push(6 * i)
+  //.push funciona para agregar x a una array
   }
   return tabla;
 }
@@ -231,8 +232,9 @@ function doWhile(numero) {
   var i=0;
 
   do{
-    i++;
     numero = numero +5;
+  //es necesario escribirlo asi
+    i++;
   }
   while(i<8)
   return numero;
