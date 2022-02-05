@@ -59,9 +59,7 @@ function saludo(idioma) {
   else if(idioma==="ingles"){
     return "Hello!"
   }
-  else{
-    return "Hola!"
-  }
+    return "Hola!" 
 }
 
 function colors(color) {
@@ -125,6 +123,8 @@ function esEntero(numero) {
     return true
   }
     return false;
+
+  //la funcion .floor redondea al numero mas bajo
 }
 
 function fizzBuzz(numero) {
