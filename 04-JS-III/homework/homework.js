@@ -184,7 +184,7 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí
   for (var i =0 ; i < arreglo.length; i++) {
     if(arreglo[0] !== arreglo[i]){
-      return falsex
+      return false
     }
   }
   return true
@@ -198,7 +198,7 @@ function mesesDelAño(array) {
   // Tu código:
   var nuevoArray=[];
   for(let i=0; i<array.length; i++){
-    if(array[i]==="Enero" || array[i]==="Marz o" || array[i]==="Noviembre"){
+    if(array[i]==="Enero" || array[i]==="Marzo" || array[i]==="Noviembre"){
       nuevoArray.push(array[i]);
     }
   }
@@ -246,6 +246,7 @@ function breakStatement(numero) {
       return array;
   }
 }
+
 
 
 function continueStatement(numero) {
