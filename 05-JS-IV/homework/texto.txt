@@ -1,0 +1,14 @@
+Objetos:
+Un objeto es un contenedor independiente con propiedades y tipos distintos de valor.
+
+Propiedades:
+Las propiedades que forman un objeto en JS utilizan un nombre como identificador (key) y se les puede dar cualquier tipo de dato como valor (value), ya sea un string, numero, booleano, un array, una funcion o incluso otro objeto con sus propias propiedades.
+
+Metodos:
+Un metodo es una funcion guardada dentro de un objeto en la que podemos establecer un identificador.
+
+For... in:
+Un objeto, al no tener indice numero, se utiliza otra sintaxis para recorrer cada clave del objeto utilizando un for.
+
+Notación de puntos vs notación de corchetes:
+En Javascript podemos acceder a las propiedades y/o funciones de un objeto usando cualquier notación: el punto . o los corchetes [], pero la principal diferencia es que dentro de corchetes podemos acceder a propiedades que tienen un espacio o carácter no permitido en la notación de punto 
